@@ -1,0 +1,87 @@
+# Лейблы для типов файлов
+'frontend':
+  - 'src/components/**/*'
+  - 'src/app/**/*'
+  - 'tailwind.config.ts'
+  - 'postcss.config.mjs'
+  - '*.css'
+  - '*.scss'
+  - '*.sass'
+
+'backend':
+  - 'src/app/api/**/*'
+  - 'src/lib/api/**/*'
+  - 'src/lib/validation.ts'
+  - 'src/lib/rateLimit.ts'
+
+'documentation':
+  - 'README.md'
+  - 'DEPLOYMENT.md'
+  - 'REFACTORING_REPORT.md'
+  - 'docs/**/*'
+  - '*.md'
+
+'testing':
+  - '**/*.test.ts'
+  - '**/*.test.tsx'
+  - '**/*.spec.ts'
+  - '**/*.spec.tsx'
+  - 'jest.config.js'
+  - 'jest.setup.js'
+  - 'playwright.config.ts'
+  - 'tests/**/*'
+
+'ci/cd':
+  - '.github/workflows/**/*'
+  - '.github/dependabot.yml'
+  - '.github/stale.yml'
+  - '.github/labels.yml'
+  - '.github/release-drafter.yml'
+  - '.lighthouserc.js'
+  - 'codecov.yml'
+
+'dependencies':
+  - 'package.json'
+  - 'package-lock.json'
+  - 'yarn.lock'
+  - 'pnpm-lock.yaml'
+
+'configuration':
+  - 'next.config.js'
+  - 'tsconfig.json'
+  - 'eslint.config.mjs'
+  - '.prettierrc'
+  - '.gitignore'
+  - '.env*'
+
+'security':
+  - '**/security/**/*'
+  - '**/auth/**/*'
+  - '**/middleware.ts'
+
+'performance':
+  - '**/performance/**/*'
+  - '**/optimization/**/*'
+
+'ui/ux':
+  - 'src/components/ui/**/*'
+  - 'src/components/sections/**/*'
+  - 'public/**/*'
+  - '*.svg'
+  - '*.png'
+  - '*.jpg'
+  - '*.jpeg'
+  - '*.gif'
+
+'bug':
+  - '**/fix/**/*'
+  - '**/bugfix/**/*'
+
+'enhancement':
+  - '**/feature/**/*'
+  - '**/improvement/**/*'
+
+'chore':
+  - '**/chore/**/*'
+  - '**/maintenance/**/*'
+# Лейблы для размеров PR (удаляем, так как они добавляются автоматически в workflow)

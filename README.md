@@ -270,10 +270,9 @@ npm run test:coverage
 
 ## 📞 Контакты
 
-- **Telegram:** [@pryanishnikov_dev](https://t.me/pryanishnikov_dev)
-- **Email:** hello@pryanishnikov.dev
-- **GitHub:** [pryanishnikov](https://github.com/pryanishnikov)
-- **Website:** [pryanishnikov.dev](https://pryanishnikov.dev)
+- **Telegram:** [@pryanishnikov_dev](https://t.me/frankfmy)
+- **Email:** pryanishnikovartem@gmail.com
+- **GitHub:** [pryanishnikov](https://github.com/FrankFMY)
 
 ## 🙏 Благодарности
 
