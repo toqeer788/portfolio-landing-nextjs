@@ -294,13 +294,13 @@ const HeroSection = memo(() => {
 					<p className="flex items-center justify-center gap-2">
 						<span className="text-primary-400 font-medium">Telegram:</span>
 						<a
-							href="https://t.me/pryanishnikov_dev"
+							href="https://t.me/frankfmy"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="hover:text-primary-400 transition-colors underline decoration-dotted hover:decoration-solid"
 							aria-label="Связаться в Telegram"
 						>
-							@pryanishnikov_dev
+							@FrankFMY
 						</a>
 					</p>
 				</motion.div>

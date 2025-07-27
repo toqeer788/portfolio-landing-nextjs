@@ -170,13 +170,13 @@ export const FAQ_DATA: FAQ[] = [
 ];
 
 export const CONTACT_INFO = {
-	telegram: '@pryanishnikov_dev',
-	email: 'hello@pryanishnikov.dev',
+	telegram: '@FrankFMY',
+	email: 'pryanishnikovartem@gmail.com',
 	responseTime: '2 часа в рабочее время',
 };
 
 export const SOCIAL_LINKS = {
-	github: 'https://github.com/pryanishnikov',
+	github: 'https://github.com/frankfmy',
 	linkedin: 'https://linkedin.com/in/pryanishnikov',
-	telegram: 'https://t.me/pryanishnikov_dev',
+	telegram: 'https://t.me/frankfmy',
 };

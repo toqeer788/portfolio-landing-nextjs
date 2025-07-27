@@ -144,9 +144,7 @@ const ContactSection = () => {
 								<motion.div
 									className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group cursor-pointer"
 									whileHover={{ scale: 1.02 }}
-									onClick={() =>
-										window.open('https://t.me/pryanishnikov_dev', '_blank')
-									}
+									onClick={() => window.open('https://t.me/frankfmy', '_blank')}
 								>
 									<div className="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center group-hover:bg-primary-500/30 transition-colors">
 										<MessageSquare className="w-6 h-6 text-primary-400" />

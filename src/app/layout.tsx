@@ -101,9 +101,9 @@ const structuredData = {
 	url: 'https://pryanishnikov.dev',
 	image: 'https://pryanishnikov.dev/profile.jpg',
 	sameAs: [
-		'https://github.com/pryanishnikov',
+		'https://github.com/frankfmy',
 		'https://linkedin.com/in/pryanishnikov',
-		'https://t.me/pryanishnikov_dev',
+		'https://t.me/frankfmy',
 	],
 	knowsAbout: [
 		'React',
@@ -121,7 +121,7 @@ const structuredData = {
 	contactPoint: {
 		'@type': 'ContactPoint',
 		contactType: 'customer service',
-		email: 'hello@pryanishnikov.dev',
+		email: 'pryanishnikovartem@gmail.com',
 		availableLanguage: 'Russian',
 	},
 };
