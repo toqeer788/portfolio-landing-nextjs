@@ -100,10 +100,9 @@ npm run start        # Запуск продакшен сервера
 
 # Тестирование
 npm test             # Запуск unit тестов
-npm run test:watch   # Тесты в watch режиме
-npm run test:coverage # Тесты с покрытием
-npm run test:e2e     # E2E тесты
-npm run test:e2e:ui  # E2E тесты с UI
+npm run test:watch   # Запуск тестов в watch режиме
+npm run test:coverage # Запуск тестов с покрытием
+npm run test:e2e     # Запуск E2E тестов с Playwright
 
 # Качество кода
 npm run lint         # Проверка ESLint
@@ -270,9 +269,9 @@ npm run test:coverage
 
 ## 📞 Контакты
 
-- **Telegram:** [@pryanishnikov_dev](https://t.me/frankfmy)
+- **Telegram:** [@FrankFMY](https://t.me/frankfmy)
 - **Email:** pryanishnikovartem@gmail.com
-- **GitHub:** [pryanishnikov](https://github.com/FrankFMY)
+- **GitHub:** [FrankFMY](https://github.com/FrankFMY)
 
 ## 🙏 Благодарности
 

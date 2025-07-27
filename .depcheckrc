@@ -1,0 +1,21 @@
+{
+	  "ignores": [
+    "@types/*",
+    "autoprefixer",
+    "postcss", 
+    "eslint",
+    "eslint-config-next",
+    "@testing-library/user-event",
+    "jest-environment-jsdom",
+    "depcheck",
+    "wait-on",
+    "lint-staged"
+  ],
+	"specials": [
+		"bin",
+		"eslint",
+		"jest",
+		"postcss",
+		"webpack"
+	]
+}
